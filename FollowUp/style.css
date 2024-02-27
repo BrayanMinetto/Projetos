@@ -1,0 +1,138 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#none{
+    display: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #42839F;
+}
+.botao-whatsapp {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.botao-whatsapp:hover {
+    background-color: #128c7e;
+}
+
+.botao-email{
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background-color: #4285F4;
+}
+.botao-email:hover {
+    background-color: #C2E7FF;
+}
+section#comu{
+    margin: 0px;
+    padding: 10px;
+    background: url(bommmmmmmm.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    font-size: 0.9em ;
+    font-family: Playfair;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+}
+div > h2{
+    color: azure;
+}
+img#whats{
+    height: 38px;
+}
+a {
+    align-items: center;
+    
+    
+}
+section#port{
+    margin-top: 15px;
+    text-align: center;
+    background-color: #2d3f5e;
+    padding-top: 10px;
+    font-family: Anta;
+    font-size: 1.4em;
+    font-weight: bolder;
+    max-width: 1000px;
+    margin: auto;
+}
+section#port > img{
+    padding: 10px;
+    width: 40vw;
+    max-width: 450px;
+}
+section#port > #imagem{
+    width: 88%;
+}
+#prop > img{
+    display: block;
+    width: 90vw;
+    max-width: 900px;
+    text-align: center;
+    /* padding-left: 2.5vw;
+    padding-top: 2.5vw; */
+    margin: auto;
+    margin-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+footer{
+    margin: auto;
+    font-family: Anta;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #a52222;
+}
+a:hover{
+    
+    color: rgb(255, 133, 77);
+}
+#form{
+    background-color: rgba(36, 62, 95, 0.664);
+    padding-top: 5px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#follow {
+    /* width: 200px; /* largura da div da esquerda 
+    height: 100px; altura da div */
+    background-image: url(muitobom.jpg);
+    display: none;
+  }
+#porracaralho{
+    display: none;
+}

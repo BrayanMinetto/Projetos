@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@media screen and (min-width: 600px) and (max-width: 840px) {
+    section#comu{
+       background: url(muitobom.jpg);
+       background-position: center center;
+       padding-bottom: 8px;
+       font-size: 1em;
+    }
+    #form{
+        width: 70%;
+        margin: auto;
+        margin-top: 12px;
+    }
+    div#follow {
+        display: unset;
+      }
+}
+@media screen and (min-width: 841px) and (max-width: 993px) {
+    section#comu{
+        background: url(muitobom.jpg);
+        background-position: center center;
+        padding-bottom: 8px;
+        font-size: 1em;
+     }
+     #form{
+         width: 50%;
+         margin: auto;
+         margin-top: 12px;
+     }
+}
+@media screen and (min-width:993px) {
+    section#comu{
+        background-color: #42839F;
+        background-position: center center;
+        padding-bottom: 8px;
+        font-size: 1em;
+        background: none;
+        margin-bottom: 10px;
+     }
+    #porracaralho{
+        display: unset;
+        flex: 1;
+        max-width: 700px;
+        margin: -15px 10px 20px 20px;
+        padding-left: 3vw;
+    }
+    article#article{
+        display: flex;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-top: 30px;
+        font-size: 1.1em;
+    }
+    div#follow{
+        background-color: #42839F;
+    }
+    #form{
+        padding: 0px;
+        margin: 0px;
+       width: 60vw;
+       margin: auto;
+    }
+    #br{
+        display: none;
+    }
+}
+
